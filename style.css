@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.main-header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.main-header a {
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+}
+.main-header img {
+    padding-left: 20px;
+    height: 60px;
+    width: auto;
+}
