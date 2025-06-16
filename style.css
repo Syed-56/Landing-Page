@@ -89,6 +89,8 @@ footer {
 .hero img {
     width: 70%;
     height: auto;
+    border-radius: 50%
+
 }
 
 /* about */
@@ -118,7 +120,13 @@ footer {
     border: #3b82f6 solid 4px;
     margin: 0 auto;
     border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
 }
+.interests img:hover {
+    transform: scale(1.05); /* slight zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* soft shadow */
+  }
 .interests > div {
     display: flex;
     flex-direction: column;
