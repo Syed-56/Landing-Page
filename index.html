@@ -9,27 +9,27 @@
 </head>
 <body>
     <header class="main-header"> 
-        <img src="logo.png" alt="Logo">
+        <a href="#hero"><img src="logo.png" alt="Logo"></a>
         <ul class="navbar">
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#quote">Inspire</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="text-and-button">
                 <h1 >Meet Syed Sultan Ahmed</h1>
                 <p>A passionate software engineer with a love for coding and technology. Currently Learning Web Development</p>
-                <button class="hero-button">Learn More</button>
+                <button class="hero-button" onclick="window.location.href='https://www.linkedin.com/in/syed-sultan-5a0148334/'">Learn More</button>
             </div>
             <div class="image">
                 <img src="Images/sultan.jpeg" alt="Hero Image">
             </div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <h2>My Interests</h2>
             <div class="interests">
                 <div class="coding">
@@ -55,7 +55,7 @@
             </div>
         </section>
 
-        <section class="quote">
+        <section class="quote" id="quote">
             <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
         </section>
 
@@ -72,7 +72,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="name">
             <p>Syed Sultan Ahmed</p>
             <p>&copy; 2023 Syed Sultan Ahmed. All rights reserved.</p>

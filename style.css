@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,29 +22,34 @@ header, footer {
 header {
     font-weight: bold;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 footer {
     justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .main-header ul {
     list-style: none;
     display: flex;
     gap: 10px;
 }
-.main-header a {
+.main-header li > a {
     color: white;
     text-decoration: none;
     padding-right: 40px;
+    transition: color 0.3s, text-decoration 0.3s;
 }
 .main-header img {
-    padding-left: 20px;
+    padding-left: 0px;
     height: 60px;
     width: auto;
 }
 .main-header a:hover {
     text-decoration: underline;
+    color: #3b82f6;
 }
 
 /* hero */
@@ -64,7 +73,15 @@ footer {
     border: none;
     padding: 10px 20px;
     font-size: 18px;
+    border: 2px solid transparent;
+    transition: border 0.3s, color 0.3s, background-color 0.3s;
     cursor: pointer;
+}
+.text-and-button button:hover {
+    background-color: #1f2937;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 .image {
     max-width: 500px;
@@ -77,6 +94,7 @@ footer {
 /* about */
 .about {
     padding: 10px;
+    margin-top: 20px;
 }
 .about h2 {
     text-align: center;
@@ -121,15 +139,19 @@ footer {
     background-color: #b2b7bb;
     color: #1f2937;
     padding: 20px;
+    padding-top: 90px;
     text-align: center;
-    font-size: 24px;
+    font-size: 40px;
     font-style: italic;
-    margin-top: 40px;
+    margin-top: 100px;
+    height: 300px;
 }
 .quote p {
     width: 44%;
     margin: 0 auto;
     padding: 50px;
+    height: 300px;
+    padding-top: 80px;
 }
 
 /* Sign Up */
