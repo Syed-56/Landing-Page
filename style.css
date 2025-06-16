@@ -6,6 +6,7 @@ body {
     background-color: #f0f8ff;
 }
 
+/* header */
 header {
     background-color: #1f2937;
     color: white;
@@ -35,6 +36,7 @@ header {
     text-decoration: underline;
 }
 
+/* hero */
 .hero {
     background-color: #1f2937;
     color: white;
@@ -63,4 +65,62 @@ header {
 .hero img {
     width: 70%;
     height: auto;
+}
+
+/* about */
+.about {
+    padding: 10px;
+}
+.about h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about .interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.interests > div img {
+    width: 70%;
+    height: auto;
+    max-width: 600px;
+    border: #3b82f6 solid 4px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.interests > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+    gap: 10px;
+}
+.interests > div .line {
+    width: 70%;
+    height: 2px;
+    background-color: #3b82f6;
+    margin-left: 50px;
+}
+
+/*quote*/
+.quote {
+    background-color: #b2b7bb;
+    color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 40px;
+}
+.quote p {
+    width: 44%;
+    margin: 0 auto;
+    padding: 50px;
 }
