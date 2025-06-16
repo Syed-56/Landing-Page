@@ -46,6 +46,7 @@ footer {
     padding-left: 0px;
     height: 60px;
     width: auto;
+    border-radius: 50%;
 }
 .main-header a:hover {
     text-decoration: underline;
